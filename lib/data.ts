@@ -1,5 +1,5 @@
 import React from "react";
-import myportfolio from "@/public/MyPortfolio.png"
+import myportfolio from "@/public/myportfolio.png"
 import ML1 from "@/public/ML1.png"
 import ML2 from "@/public/ML2.png"
 import packman from "@/public/packman.jpg"
