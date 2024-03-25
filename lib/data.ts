@@ -72,8 +72,6 @@ export const experiencesData = [
   },
 ] as const; 
 
-
-
 export const projectsData = [
     {
       title: "Prof",
@@ -125,20 +123,7 @@ export const projectsData = [
       tags: ["C", "Machine Learning", "Dataset Classification"],
       imageUrl: ML2,
     },
-    /*{
-      title: "Student Record",
-      description:
-        "Built the backend functions only of a student record system using AVL tree data structure in C language.",
-      tags: ["Java", "MySQL", "Java Mail"],
-      imageUrl: corpcommentImg,
-    },
-    {
-      title: "Book Record",
-      description:
-        "Built backend functions of book record using linked list data structure in C language.",
-      tags: ["Python", "BFS", "Data Structures", "Aitifical Intellegence"],
-      imageUrl: rmtdevImg,
-    },*/
+    
   ] as const;
 
 export const skillsData = [

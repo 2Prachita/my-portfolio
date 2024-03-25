@@ -1,15 +1,20 @@
 "use client";
 
 import { useRef } from 'react'
-import Image from 'next/image';
+import Image, { StaticImageData } from 'next/image';
 import { projectsData } from "@/lib/data";
 import { motion, useScroll, useTransform } from 'framer-motion';
 
 
 type ProjectProps = (typeof projectsData)[number];
 
-export default function Project({title, description, tags, imageUrl}: ProjectProps){
-  const ref = useRef<HTMLElement>(null);
+export default function Project({
+  title,
+  description,
+  tags,
+  imageUrl,
+}: ProjectProps){
+  const ref = useRef() as React.MutableRefObject<HTMLInputElement>;
   const {scrollYProgress} = useScroll({
     target:ref,
     offset:["0 1","1.33 1"]
