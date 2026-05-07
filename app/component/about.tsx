@@ -24,34 +24,46 @@ export default function About() {
         <p className='mb-8 mt-4'>
         After completing my Bachelor's degree in{" "}
         <span className="font-medium underline">Computer Science and Engineering</span>
-        ,  I embarked on a journey to deepen my expertise in software development. 
-        I gained practical experience as a{" "}
-        <span className="font-medium underline">Software Developer at UNext Learning</span>{" "}
-        where I engineered the backend of a sophisticated edtech product using,{" "}
-        <span className="font-medium "> Java</span>
-        , contributing to the advancement of online education during the pandemic.
-        What excites me most about programming is the{" "}
-        <span className="italic underline">thrill of problem-solving</span>{" "}
-        and the{" "} 
-        <span className="italic underline">satisfaction of finding solutions</span>.{" "}
-        My core stack includes{" "}
-        <span className="font-medium ">C, Java, Python, HTML/CSS, React JS, SQL, and JavaScript</span>
-        , with proficiency in tools like{" "} 
-        <span className="font-medium ">Eclipse, Git, and Visual Studio Code</span>.{" "}
-        I am eager to expand my knowledge and am currently looking a {" "}
-        <span className="font-medium">full-time position</span> as a software
-        developer.
+        ,  I began my journey in software development and later transitioned into data engineering, 
+        where I discovered my interest in building scalable data systems. I gained hands-on experience as a {" "}
+        <span className="font-medium underline">Software Developer at UNext Learning</span>
+        , where I worked on backend development for an edtech platform using {" "}
+        <span className="font-medium "> Java</span>{" "}
+        during the pandemic. 
+        </p>
+        <p className='mb-8 mt-4'>Currently, I work as a {" "}
+        <span className="font-medium underline">Data Engineer</span>
+        , focusing on building and maintaining data pipelines and workflows. 
+        I’ve worked with tools and technologies such as,{" "}
+        <span className="italic underline">Python</span>,{" "}
+        <span className="italic underline">SQL</span>,{" "}
+        <span className="italic underline">Snowflake</span>,{" "}
+        <span className="italic underline">Prefect</span>, and{" "}
+        <span className="italic underline">Terraform</span>{" "}
+        to design reliable, scalable, and maintainable data solutions. 
+        I particularly enjoy solving complex data problems, optimizing workflows, 
+        and building systems that create real impact.
+        My core strengths lie in {" "}
+        <span className="font-medium ">data engineering, workflow orchestration, 
+          and infrastructure-driven development</span>
+        , supported by tools like {" "} 
+        <span className="italic underline">Prefect</span>{" "} 
+        for orchestration, {" "} 
+        <span className="italic underline">Snowflake</span>{" "} 
+        for data warehousing, {" "} 
+        <span className="italic underline">Terraform</span>{" "} 
+        for infrastructure as code, along with {" "} 
+        <span className="italic underline">Git</span>{" "} 
+        for version control.{" "}
         </p>
 
         <p>
         <span className="italic">When I'm not coding</span>, I enjoy playing
-        unwinding with <span className="font-medium">mobile games</span>
-        , immersing myself in captivating{" "}
-        <span className="font-medium">movies</span>
-        , and delving into the imaginative worlds of fictional{" "}
-        <span className="font-medium">books</span>.
-        Dancing is another passion of mine, providing a creative outlet and a way to stay active.{" "}
-        Recenlty I've taken interest in <span className="font-medium">cooking</span>.
+        unwinding with <span className="font-medium">mobile games</span>, watching{" "}
+        <span className="font-medium">movies</span>, reading fictional{" "}
+        <span className="font-medium">books</span>.{" "}
+        <span className="font-medium">Dancing</span> is a passion of mine,{" "}
+        and recenlty I've also taken interest in <span className="font-medium">cooking</span>.
 
         </p>
     </motion.section>

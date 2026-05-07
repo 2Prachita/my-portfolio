@@ -48,17 +48,19 @@ export default function Intro() {
         <br/>
 
         <motion.p 
-        className='mb-10 mt-4 px-4 text-2xl font-medium !leading-[1.5] sm:text-4xl'
+        className='mb-10 mt-4 px-4 text-2xl font-small !leading-[1.5] sm:text-4xl'
         initial={{opacity : 0, y : 100}}
         animate={{opacity : 1, y : 0}}
         >
         <span className="font-bold">Hello, I'm Prachita.</span> I'm a{" "}
-        <span className="font-bold">software engineer</span> with{" "}
-        <span className="font-bold">1.5 years</span> of experience. I excel in{" "} 
-        <span className="italic">problem-solving</span>  and {" "} 
-        <span className="italic">crafting user-friendly solutions</span>. I thrive in{" "}
-        <span className="">dynamic environments</span> where I can apply my{" "}
-        <span className="underline">technical expertise</span> to innovate and deliver impactful solutions.
+        <span className="font-bold">data engineer</span> with{" "}
+        <span className="font-bold">2.5+ years</span> of experience, working on building{" "}
+        <span className="underline">scalable</span> data pipelines using tools like{" "}
+        <span className="italic">Prefect</span>,{" "}
+        <span className="italic">Snowflake</span>, and {" "}
+        <span className="italic">Azure DevOps</span>. I enjoy solving{" "} 
+        <span className="underline">data problems</span>  and {" "} 
+        <span className="underline">designing reliable systems</span> that create real impact.
         </motion.p>
 
         <motion.div className='flex flex-col sm:flex-row justify-center items-center gap-2 px-4 text-lg font-medium'
@@ -83,7 +85,7 @@ export default function Intro() {
             <a 
             className='group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110
              active:scale-105 transition cursor-pointer borderBlack  dark:bg-white/10' 
-             href='/CV.pdf' download>
+             href='/Prachita-Kotangale.docx.pdf' download>
                 Download CV 
                 <HiDownload className='opacity-60 group-hover: translate-y-1 transition'/>
             </a>

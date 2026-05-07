@@ -4,11 +4,13 @@ import ML1 from "@/public/ML1.png"
 import ML2 from "@/public/ML2.png"
 import packman from "@/public/packman.jpg"
 import movie from "@/public/Reccomendation.webp"
-import cnn from "@/public/cnn.jpeg"
+import audio from "@/public/audio.jpg"
 import prof from "@/public/prof.jpeg"
 import { LuGraduationCap } from "react-icons/lu";
-import { GrJava } from "react-icons/gr";
+import { GrDatabase, GrJava } from "react-icons/gr";
 import { FaReact } from "react-icons/fa";
+import sales from"@/public/sales.jpg"
+import terraform from"@/public/terraform.jpg"
 
 export const links = [
     {
@@ -70,78 +72,140 @@ export const experiencesData = [
     icon: React.createElement(LuGraduationCap),
     date: "2021 - 2023",
   },
+  {
+    title: "Data Engineer Associate",
+    location: "Nagpur, India",
+    description:
+      "Currently working as a Data Engineer at Fulz Technologies, focusing on building and maintaining scalable data pipelines. Involved in developing ETL workflows, orchestrating pipelines using Prefect, and implementing data processing solutions with Snowflake and Python. Also worked on automating data ingestion, monitoring workflows, and improving pipeline reliability and performance.",
+    icon: React.createElement(GrDatabase), // or another relevant icon
+    date: "2024 - Present",
+  },
 ] as const; 
 
 export const projectsData = [
-    {
-      title: "Prof",
-      description:
-        "PROF is a software built in java for teachers, as an assistance tool for attendance, grade management, and, streamlining administrative tasks for educators.",
-      tags: ["Java", "Java Mail API", "MySQL"],
-      imageUrl: prof,
+  {
+    title: "Audio Intelligence Data Pipeline",
+    description:
+      "Built a data pipeline to ingest and process global music chart data from the Last.fm API into Snowflake using a medallion architecture.",
+    tags: [
+      "Python",
+      "Prefect",
+      "dbt",
+      "Snowflake",
+      "Data Engineering",
+      "ETL",
+    ],
+    imageUrl: audio,
+    year: 2026,
+    links: {
+      github: "https://github.com/2Prachita/audio_intelligence",
     },
-    {
-      title: "Pacman",
-      description:
-        "Implemented a goal-based agent using BFS as an uninformed search policy, enhancing the gaming experience.",
-      tags: ["Python", "Aitifical Intellegence", "BFS", "Data Structures", ],
-      imageUrl: packman,
+  },
+  {
+    title: "Prefect + Terraform Deployment Framework",
+    description:
+      "Built a modular infrastructure-as-code framework using Terraform to deploy and manage Prefect flows and deployments.",
+    tags: ["Terraform", "Prefect", "Infrastructure as Code", "CI/CD"],
+    imageUrl: terraform,
+    year: 2026,
+    links: {
+      github: "https://github.com/2Prachita/prefect-terraform",
     },
-    {
-      title: "FilmFusion",
-      description:
-        "Modelled an Item-based Collaborative Filtering Recommendation Algorithm in python for reccomending movies.",
-      tags: ["Python", "ML"],
-      imageUrl: movie,
+  },
+  {
+    title: "Data Engineering Pipelines with Prefect",
+    description:
+      "Designed-implemented data pipelines using Prefect, including automated ingestion, parallel processing, and report generation workflows.",
+    tags: ["Python", "Prefect", "ETL", "Parallel Processing"],
+    imageUrl: sales,
+    year: 2025,
+    links: {
+      github: "https://github.com/2Prachita/",
     },
-    ,
-    {
-      title: "Fashion-MNIST dataset",
-      description:
-        "Programmed a simple convolutional neural network in TensorFlow to solve an image classification task.",
-      tags: ["Python", "Keras", "TensorFlow",],
-      imageUrl: cnn,
+  },
+  {
+    title: "Prachita's Portfolio",
+    description:
+      "Designed and developed a personal portfolio website to showcase projects, skills, and experience, with smooth animations and responsive UI.",
+    tags: ["React", "Next.js", "Tailwind", "TypeScript", "Framer Motion"],
+    imageUrl: myportfolio,
+    year: 2024,
+    links: {
+      demo: "https://prachita.vercel.app/",
+      github: "https://github.com/2Prachita/my-portfolio",
     },
-    {
-      title: "Prachita's Portfolio",
-      description:
-        "I created my personal portfolio website for the recruites to showcase my skills, projects, and experience.",
-      tags: ["React", "Next.js", "Tailwind", "TypeScript", "Framer Motion", "Rsend", "React Email"],
-      imageUrl: myportfolio,
+  },
+  {
+    title: "Pacman AI Agent",
+    description:
+      "Implemented a goal-based AI agent using BFS as an uninformed search algorithm to navigate and solve the Pacman environment.",
+    tags: ["Python", "Artificial Intelligence", "BFS", "Algorithms"],
+    imageUrl: packman,
+    year: 2020,
+    links: {
+      note: "Code not available",
     },
-    {
-      title: "ML Algorithm 1",
-      description:
-        "Implemented single-layer perceptron by training on breast cancer and seed datasets in C, significantly improving classification accuracy.",
-      tags: ["C", "Machine Learning", "Dataset Classification"],
-      imageUrl: ML1,
+  },
+  {
+    title: "Single-Layer Perceptron",
+    description:
+      "Implemented a single-layer perceptron in C and trained it on classification datasets, improving prediction accuracy through iterative learning.",
+    tags: ["C", "Machine Learning", "Classification"],
+    imageUrl: ML1,
+    year: 2019,
+    links: {
+      github: "https://github.com/2Prachita/SLP-Breast-Cancer-DataSet",
     },
-    {
-      title: "ML Algorithm 2",
-      description:
-        "Implemented multi-layer perceptron by training on breast cancer and seed datasets in C, significantly improving classification accuracy.",
-      tags: ["C", "Machine Learning", "Dataset Classification"],
-      imageUrl: ML2,
+  },
+  {
+    title: "Multi-Layer Perceptron",
+    description:
+      "Built a multi-layer perceptron in C for classification tasks, enhancing model performance compared to a single-layer approach.",
+    tags: ["C", "Machine Learning", "Neural Networks"],
+    imageUrl: ML2,
+    year: 2019,
+    links: {
+      github: "https://github.com/2Prachita/MLP",
     },
-    
-  ] as const;
+  },
+  {
+    title: "FilmFusion",
+    description:
+      "Built an item-based collaborative filtering recommendation system in Python to suggest movies based on user similarity and preferences.",
+    tags: ["Python", "Machine Learning", "Recommendation Systems"],
+    imageUrl: movie,
+    year: 2018,
+    links: {
+      note: "Code not available",
+    },
+  },
+  {
+    title: "PROF",
+    description:
+      "Developed a Java-based application to assist educators with attendance tracking, grade management, and administrative workflows.",
+    tags: ["Java", "MySQL"],
+    imageUrl: prof,
+    year: 2018,
+    links: {
+      github: "https://github.com/TushRinPrach",
+    },
+  },
+] as const;
 
 export const skillsData = [
-    'Java', 
-    'C', 
-    'Python',
-    'SQL',
-    'Git',
-    'Jira',
-    'MYSQL',
-    'HTML',
-    'CSS', 
-    'JavaScript',
-    'React',
-    'Redux',
-    'Next.js',
-    'Node.js',
-    'Power BI', 
-    'Tableau',
-    'Framer Motion'
-]
+  "Python",
+  "SQL",
+  "Snowflake",
+  "Prefect",
+  "AzureDevOps",
+  "dbt",
+  "Terraform",
+  "ETL / Data Pipelines",
+  "Data Modeling",
+  "Workflow Orchestration",
+  "AWS",
+  "Git",
+  "CI/CD",
+  "Linux",
+  "REST APIs",
+];
