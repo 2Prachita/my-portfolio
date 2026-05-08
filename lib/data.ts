@@ -1,7 +1,5 @@
 import React from "react";
 import myportfolio from "@/public/myportfolio.png"
-import ML1 from "@/public/ML1.png"
-import ML2 from "@/public/ML2.png"
 import packman from "@/public/packman.jpg"
 import movie from "@/public/Reccomendation.webp"
 import audio from "@/public/audio.jpg"
@@ -99,6 +97,7 @@ export const projectsData = [
     year: 2026,
     links: {
       github: "https://github.com/2Prachita/audio_intelligence",
+      demo: "",
     },
   },
   {
@@ -110,6 +109,7 @@ export const projectsData = [
     year: 2026,
     links: {
       github: "https://github.com/2Prachita/prefect-terraform",
+      demo: "",
     },
   },
   {
@@ -121,6 +121,7 @@ export const projectsData = [
     year: 2025,
     links: {
       github: "https://github.com/2Prachita/",
+      demo: "",
     },
   },
   {
@@ -143,7 +144,8 @@ export const projectsData = [
     imageUrl: packman,
     year: 2020,
     links: {
-      note: "Code not available",
+      github: "",
+      demo: "",
     },
   },
   {
@@ -154,7 +156,8 @@ export const projectsData = [
     imageUrl: movie,
     year: 2018,
     links: {
-      note: "Code not available",
+      github: "",
+      demo: "",
     },
   },
   {
@@ -166,6 +169,7 @@ export const projectsData = [
     year: 2018,
     links: {
       github: "https://github.com/TushRinPrach",
+      demo: "",
     },
   },
 ] as const;
