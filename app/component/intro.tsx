@@ -52,7 +52,7 @@ export default function Intro() {
         initial={{opacity : 0, y : 100}}
         animate={{opacity : 1, y : 0}}
         >
-        <span className="font-bold">Hello, I'm Prachita.</span> I'm a{" "}
+        <span className="font-bold">Hello, I{"'"}m Prachita.</span> I{"'"}m a{" "}
         <span className="font-bold">data engineer</span> with{" "}
         <span className="font-bold">2.5+ years</span> of experience, working on building{" "}
         <span className="underline">scalable</span> data pipelines using tools like{" "}

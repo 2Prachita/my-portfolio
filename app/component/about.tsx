@@ -22,7 +22,7 @@ export default function About() {
         <SectionHeading> About Me</SectionHeading>
 
         <p className='mb-8 mt-4'>
-        After completing my Bachelor's degree in{" "}
+        After completing my Bachelor{"'"}s degree in{" "}
         <span className="font-medium underline">Computer Science and Engineering</span>
         ,  I began my journey in software development and later transitioned into data engineering, 
         where I discovered my interest in building scalable data systems. I gained hands-on experience as a {" "}
@@ -34,7 +34,7 @@ export default function About() {
         <p className='mb-8 mt-4'>Currently, I work as a {" "}
         <span className="font-medium underline">Data Engineer</span>
         , focusing on building and maintaining data pipelines and workflows. 
-        I’ve worked with tools and technologies such as,{" "}
+        I{"’"}ve worked with tools and technologies such as,{" "}
         <span className="italic underline">Python</span>,{" "}
         <span className="italic underline">SQL</span>,{" "}
         <span className="italic underline">Snowflake</span>,{" "}
@@ -58,12 +58,12 @@ export default function About() {
         </p>
 
         <p>
-        <span className="italic">When I'm not coding</span>, I enjoy playing
+        <span className="italic">When I{"'"}m not coding</span>, I enjoy playing
         unwinding with <span className="font-medium">mobile games</span>, watching{" "}
         <span className="font-medium">movies</span>, reading fictional{" "}
         <span className="font-medium">books</span>.{" "}
         <span className="font-medium">Dancing</span> is a passion of mine,{" "}
-        and recenlty I've also taken interest in <span className="font-medium">cooking</span>.
+        and recenlty I{"'"}ve also taken interest in <span className="font-medium">cooking</span>.
 
         </p>
     </motion.section>
