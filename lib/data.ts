@@ -86,7 +86,7 @@ export const projectsData = [
   {
     title: "Audio Intelligence Data Pipeline",
     description:
-      "Built a data pipeline to ingest and process global music chart data from the Last.fm API into Snowflake using a medallion architecture.",
+     "End-to-end data pipeline ingesting global music chart data from Last.fm API into Snowflake using medallion architecture.",
     tags: [
       "Python",
       "Prefect",
@@ -144,28 +144,6 @@ export const projectsData = [
     year: 2020,
     links: {
       note: "Code not available",
-    },
-  },
-  {
-    title: "Single-Layer Perceptron",
-    description:
-      "Implemented a single-layer perceptron in C and trained it on classification datasets, improving prediction accuracy through iterative learning.",
-    tags: ["C", "Machine Learning", "Classification"],
-    imageUrl: ML1,
-    year: 2019,
-    links: {
-      github: "https://github.com/2Prachita/SLP-Breast-Cancer-DataSet",
-    },
-  },
-  {
-    title: "Multi-Layer Perceptron",
-    description:
-      "Built a multi-layer perceptron in C for classification tasks, enhancing model performance compared to a single-layer approach.",
-    tags: ["C", "Machine Learning", "Neural Networks"],
-    imageUrl: ML2,
-    year: 2019,
-    links: {
-      github: "https://github.com/2Prachita/MLP",
     },
   },
   {
