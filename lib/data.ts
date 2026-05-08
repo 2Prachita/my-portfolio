@@ -105,7 +105,7 @@ export const projectsData = [
     title: "Prefect + Terraform Deployment Framework",
     description:
       "Built a modular infrastructure-as-code framework using Terraform to deploy and manage Prefect flows and deployments.",
-    tags: ["Terraform", "Prefect", "Infrastructure as Code", "CI/CD"],
+    tags: ["Terraform", "Prefect", "IaC ", "CI/CD"],
     imageUrl: terraform,
     year: 2026,
     links: {
